@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Tangerine:wght@700&display=swap');
+:root{
+    --azul: #03989e;
+    --blanco: #fbfdfe;
+    --negro: #000;
+    --titulos: Tangerine;
+    --texto: Cutive Mono;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: var(--blanco);
+    width: 100%;
+    height: 7vh;
+}
+
+#navbar>.menu{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar > .menu > li{
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#navbar > .menu > li > a{
+    display: block;
+    padding: 5px;
+    padding-top: 10px;
+    font-family: var(--texto), monospace;
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--negro);
+}
+
+#navbar > .menu > li > a:hover{
+    border-bottom: var(--azul) 2px solid;
+    transition: all .3;
+}
+
+
+section{
+    height: 600px;
+}
+
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:/Users/Administrador.Aitor-PC/Documents/Portafolios - Norangel Marin/img/fondo.png');
+}
+
+#inicio > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio > div > h1{
+    margin: 10px;
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--titulos), cursive;
+    font-size: 100px;
+}
+
+#inicio > div > p{
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--texto), cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#sobreMi{
+    background-color: var(--azul);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sobreMi > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 47%;
+    height: 70%;
+    padding: 5px;
+    border-right: 2px solid var(--negro);
+}
+
+#sobreMi > .imagen{
+    border-left: 2px solid var(--negro);
+}
+
+#sobreMi > div > img {
+    width: 250px;
+    height: 250px;
+}
+
+#sobreMi > div > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+}
+
+#sobreMi > div > article > h2 {
+    color: var(--blanco);
+    font-family: var(--titulos), cursive;
+    font-size: 55px;
+}
+
+#sobreMi > div > article > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--blanco);
+    font-family: var(--texto), monospace;
+    font-size: 18px;
+    text-align: start;
+}
+
+#sobreMi > div > article > button {
+    margin: 10px;
+    padding: 7px;
+    background-color: var(--negro);
+    border: var(--negro);
+    color: var(--blanco);
+    font-family: var(--texto), monospace;
+    font-size: 17px;
+    width: 135px;
+    text-align: center;
+}
+
+#habilidades{
+    background-color: var(--negro);
+}
+
+#habilidades > h2{
+    margin-top: 7vh;
+    width: 500px;
+    color: var(--blanco);
+    font-family: var(--titulos), cursive;
+    font-size: 55px;
+    float: right;
+}
+
+#proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('C:/Users/Administrador.Aitor-PC/Documents/Portafolios - Norangel Marin/img/fondo2.png');
+}
+
+#proyectos > div, h2, p{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#proyectos > h2{  
+    margin-top: 10px;
+    color: var(--negro);
+    font-family: var(--titulos), cursive;
+    font-size: 55px;
+}
+
+#proyectos > p{ 
+    color: var(--negro);
+    font-family: var(--texto), monospace;
+    font-size: 18px;
+}
+
+.proyectos{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.proyectos > div{
+    width: 260px;
+    height: 280px;
+    margin: 30px;
+    background-color: var(--negro);
+    cursor: pointer;
+}
+
+.proyectos > div > img {
+    width: 100%;
+    height: 90%;
+}
+
+.proyectos > div > h3 {
+    color: var(--blanco);
+    font-family: var(--texto), monospace;
+    font-size: 17px;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+#servicios{
+    background-color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicios > div {
+    margin: 5px;
+    width: 50%;
+}
+
+#servicios> div > h2{
+    margin-bottom: 10px;
+    color: var(--negro);
+    font-family: var(--titulos), cursive;
+    font-size: 55px;
+}
+
+#servicios> div > img{
+    width: 480px;
+    height: 250px;
+}
+
+.seccionIzq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos{
+    border-top: var(--azul) 2px solid;
+    margin: 10px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.titulos > h3{
+    width: 20%;
+    color: var(--azul);
+    font-size: 60px;
+    font-family: var(--titulos), cursive;
+}
+
+.titulos > h4{
+    width: 60%;
+    color: var(--negro);
+    font-size: 30px;
+    font-family: var(--texto), cursive;
+}
+
+#contacto{
+    background-color: var(--negro);
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contacto > h2{
+    text-align: left;
+    width: 70%;
+    color: var(--blanco);
+    font-family: var(--titulos), cursive;
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+#contacto> .contacto > .imagen > img{
+    width: 480px;
+    height: 250px;
+}
+
+.contacto{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contacto > div {
+    width: 50%;
+    height: 300px;
+}
+
+.contacto > form {
+    width: 80%;
+}
+
+.contacto > div > form > input, label, textarea, button{
+    display: flex;
+    flex-direction: column; 
+    width: 80%;
+    margin: 5px;
+    font-family: var(--texto), monospace;
+}
+
+.contacto > div > form > input, textarea{
+    border: var(--negro) 2px solid;
+    border-bottom: var(--azul) 2px solid;
+    background-color: var(--negro);
+    color: var(--blanco);
+    resize: none;
+}
+
+.contacto > div > form > button{
+    border: var(--negro) 2px solid;
+    background-color: var(--negro);
+    color: var(--azul);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+footer{
+    height: 300px;
+    background-color: var(--blanco);
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+}
+
+footer > .separacion{
+    background-color: var(--azul) ;
+    height: 8vh;
+}
+
+footer > .informacion{
+    margin: 5px;
+
+}
+
+footer > .informacion > div {
+    margin: 5px;
+    width: 400px;
+}
+
+footer > ul, li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+footer > h4, a, p {
+    color: var(--negro);
+    font-family: var(--texto), monospace;
+}
