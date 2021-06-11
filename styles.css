@@ -54,7 +54,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('C:/Users/Administrador.Aitor-PC/Documents/Portafolios - Norangel Marin/img/fondo.png');
+    background-image: url('img/fondo.png');
 }
 
 #inicio > div{
@@ -264,6 +264,11 @@ section{
     color: var(--negro);
     font-size: 30px;
     font-family: var(--texto), cursive;
+}
+
+.texto{
+    text-align: start;
+    font-size: 16px;
 }
 
 #contacto{
