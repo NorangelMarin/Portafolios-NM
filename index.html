@@ -114,14 +114,14 @@
             <div>
                 <form name="contact" method="POST" data-netfily="true">
                     <label for="name">Nombre</label>
-                    <input type="text" name="Nombre">
+                        <input type="hidden" name="form-name" value="Nombre">
                     <label for="correo">Correo Electronico</label>
-                    <input type="email" name="Email">
+                        <input type="hidden" name="form-name" value="Email">
                     <label for="asunto">Asunto</label>
-                    <input type="text" name="Asunto">
+                        <input type="hidden"type="text" name="form-name" value="Asunto">
                     <label for="msj">Mensaje</label>
-                    <textarea id="msj" name="Mensaje"></textarea>
-                    <button type="submit">Enviar</button>
+                        <textarea type="hidden" id="msj" name="form-name" value="Mensaje"></textarea>
+                        <button type="submit">Enviar</button>
                 </form>
             </div>
         </div>
