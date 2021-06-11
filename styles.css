@@ -54,7 +54,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('img/fondo.png');
+    background-image: url('../img/fondo.png');
 }
 
 #inicio > div{
@@ -160,7 +160,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('C:/Users/Administrador.Aitor-PC/Documents/Portafolios - Norangel Marin/img/fondo2.png');
+    background-image: url('../img/fondo2.png');
 }
 
 #proyectos > div, h2, p{
