@@ -112,16 +112,30 @@
                 <img src='../img/Contacto.png' alt="contacto">
             </div>
             <div>
-                <form>
-                    <label for="name">Nombre</label>
-                    <input type="text">
-                    <label for="correo">Correo Electronico</label>
-                    <input type="email">
-                    <label for="asunto">Asunto</label>
-                    <input type="text">
-                    <label for="msj">Mensaje</label>
-                    <textarea id="msj"></textarea>
-                    <button type="submit">Enviar</button>
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                        <label>Nombre: 
+                            <input type="text" name="name" />
+                        </label>   
+                    </p>
+                    <p>
+                        <label>Email: 
+                            <input type="email" name="email" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>Asunto: 
+                            <input type="text" name="name" />
+                        </label>   
+                    </p>
+                    <p>
+                        <label>Mensaje: 
+                            <textarea name="message"></textarea>
+                        </label>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
                 </form>
             </div>
         </div>
