@@ -324,6 +324,7 @@ section{
     background-color: var(--negro);
     color: var(--blanco);
     resize: none;
+    outline: none;
 }
 
 .contacto > div > form > button{
