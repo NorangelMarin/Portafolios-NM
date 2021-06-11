@@ -310,15 +310,26 @@ section{
     width: 80%;
 }
 
-.contacto > div > form > input, label, textarea, button{
+.contacto > div > form > p{
     display: flex;
     flex-direction: column; 
-    width: 80%;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
     margin: 5px;
+}
+
+.contacto > div > form > p > label{
+    width: 90%;
+    color: var(--blanco);
+    background-color: var(--negro);
     font-family: var(--texto), monospace;
 }
 
-.contacto > div > form > input, textarea{
+.contacto > div > form > p > label > input, textarea{
+    font-family: var(--texto), monospace;
+    width: 60%;
+    padding: 5px;
     border: var(--negro) 2px solid;
     border-bottom: var(--azul) 2px solid;
     background-color: var(--negro);
@@ -327,7 +338,8 @@ section{
     outline: none;
 }
 
-.contacto > div > form > button{
+.contacto > div > form > p > button{
+    font-family: var(--texto), monospace;
     border: var(--negro) 2px solid;
     background-color: var(--negro);
     color: var(--azul);
