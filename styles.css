@@ -136,10 +136,13 @@ section{
     padding: 7px;
     background-color: var(--negro);
     border: var(--negro);
+    width: 135px;
+}
+
+#sobreMi > div > article > button > a {
     color: var(--blanco);
     font-family: var(--texto), monospace;
     font-size: 17px;
-    width: 135px;
     text-align: center;
 }
 

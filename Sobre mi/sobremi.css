@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Tangerine:wght@700&display=swap');
+:root{
+    --azul: #03989e;
+    --blanco: #fbfdfe;
+    --negro: #000;
+    --titulos: Tangerine;
+    --texto: Cutive Mono;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 600px;
+}
+
+#navbar{
+    background-color: var(--blanco);
+    width: 100%;
+    height: 7vh;
+}
+
+#navbar>.menu{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar > .menu > li{
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#navbar > .menu > li > a{
+    display: block;
+    padding: 5px;
+    padding-top: 10px;
+    font-family: var(--texto), monospace;
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--negro);
+}
+
+#navbar > .menu > li > a:hover{
+    border-bottom: var(--azul) 2px solid;
+    transition: all .3;
+}
+
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/fondo.png');
+}
+
+#inicio > h1{
+    margin: 10px;
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--titulos), cursive;
+    font-size: 100px;
+}
+
+#sobreMi{
+    background-color: var(--azul);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sobreMi > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 47%;
+    height: 70%;
+    padding: 5px;
+    border-right: 2px solid var(--negro);
+}
+
+#sobreMi > .imagen{
+    border-left: 2px solid var(--negro);
+}
+
+#sobreMi > div > img {
+    width: 250px;
+    height: 250px;
+}
+
+#sobreMi > div > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+}
+
+#sobreMi > div > article > h2 {
+    color: var(--blanco);
+    font-family: var(--titulos), cursive;
+    font-size: 55px;
+}
+
+#sobreMi > div > article > p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--blanco);
+    font-family: var(--texto), monospace;
+    font-size: 18px;
+    text-align: start;
+}
+
+footer{
+    height: 300px;
+    background-color: var(--blanco);
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+}
+
+footer > .separacion{
+    background-color: var(--azul) ;
+    height: 8vh;
+}
+
+footer > .informacion{
+    margin: 5px;
+
+}
+
+footer > .informacion > div {
+    margin: 5px;
+    width: 400px;
+}
+
+footer > ul, li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+footer > h4, a, p {
+    color: var(--negro);
+    font-family: var(--texto), monospace;
+}
