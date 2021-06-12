@@ -141,10 +141,6 @@ section{
     cursor: pointer;
 }
 
-#curriculum{
-    background-color: var(--azul);
-}
-
 footer{
     height: 300px;
     background-color: var(--blanco);
