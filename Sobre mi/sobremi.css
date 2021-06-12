@@ -121,6 +121,7 @@ section{
 
 #curriculum{
     background-color: var(--negro);
+    color: var(--blanco);
 }
 
 footer{
