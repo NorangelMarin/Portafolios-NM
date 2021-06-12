@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Tangerine:wght@700&display=swap');
+:root{
+    --azul: #03989e;
+    --blanco: #fbfdfe;
+    --negro: #000;
+    --titulos: Tangerine;
+    --texto: Cutive Mono;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: var(--blanco);
+    width: 100%;
+    height: 7vh;
+}
+
+#navbar>.menu{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+#navbar > .menu > li{
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#navbar > .menu > li > a{
+    display: block;
+    padding: 5px;
+    padding-top: 10px;
+    font-family: var(--texto), monospace;
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--negro);
+}
+
+#navbar > .menu > li > a:hover{
+    border-bottom: var(--azul) 2px solid;
+    transition: all .3;
+}
+
+section{
+    height: 600px;
+}
+
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/fondo3.png');
+}
+
+#inicio > h1{
+    margin: 10px;
+    text-align: center;
+    color: var(--negro);
+    font-family: var(--titulos), cursive;
+    font-size: 100px;
+}
+
+#contacto{
+    background-color: var(--negro);
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contacto > h2{
+    text-align: left;
+    width: 70%;
+    color: var(--blanco);
+    font-family: var(--titulos), cursive;
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+#contacto> .contacto > .imagen > img{
+    width: 450px;
+    height: 250px;
+}
+
+.contacto{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contacto > div {
+    width: 50%;
+    height: 300px;
+}
+
+.contacto > form {
+    width: 80%;
+}
+
+.contacto > div > form > p{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 5px;
+}
+
+.contacto > div > form > p > label{
+    width: 90%;
+    color: var(--blanco);
+    background-color: var(--negro);
+    font-family: var(--texto), monospace;
+}
+
+.contacto > div > form > p > label > input, textarea{
+    font-family: var(--texto), monospace;
+    width: 60%;
+    padding: 5px;
+    border: var(--negro) 2px solid;
+    border-bottom: var(--azul) 2px solid;
+    background-color: var(--negro);
+    color: var(--blanco);
+    resize: none;
+    outline: none;
+}
+
+.contacto > div > form > p > button{
+    font-family: var(--texto), monospace;
+    border: var(--negro) 2px solid;
+    background-color: var(--negro);
+    color: var(--azul);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#curriculum{
+    background-color: var(--azul);
+}
+
+footer{
+    height: 300px;
+    background-color: var(--blanco);
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+}
+
+footer > .separacion{
+    background-color: var(--azul) ;
+    height: 8vh;
+}
+
+footer > .informacion{
+    margin: 5px;
+
+}
+
+footer > .informacion > div {
+    margin: 5px;
+    width: 400px;
+}
+
+footer > ul, li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+footer > h4, a, p {
+    color: var(--negro);
+    font-family: var(--texto), monospace;
+}
