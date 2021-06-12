@@ -131,6 +131,10 @@ section{
     font-size: 55px;
 }
 
+.intereses{
+    display: flex;
+}
+
 #curriculum{
     background-color: var(--negro);
     color: var(--blanco);
