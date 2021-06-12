@@ -115,6 +115,14 @@ section{
     text-align: start;
 }
 
+#intereses{
+    background-image: url('../img/fondo2.png');
+}
+
+#curriculum{
+    background-color: var(--negro);
+}
+
 footer{
     height: 300px;
     background-color: var(--blanco);
