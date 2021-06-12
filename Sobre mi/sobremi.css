@@ -96,11 +96,13 @@ section{
 #sobreMi > div > article {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     width: 380px;
 }
 
 #sobreMi > div > article > h2 {
+    margin-bottom: 20px;
+    text-align: center;
     color: var(--blanco);
     font-family: var(--titulos), cursive;
     font-size: 55px;
@@ -113,6 +115,41 @@ section{
     font-family: var(--texto), monospace;
     font-size: 18px;
     text-align: start;
+}
+
+#detalles{
+    background-image: url('../img/fondo4.png');
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+#detalles > div{
+    width: 50%;
+    margin: 30px;
+    margin-top: 0;
+}
+
+#detalles > div > div{
+    margin: 40px;
+    margin-top: 0;
+}
+
+#detalles > div > div > h3{
+    margin: 12px;
+    margin-top: 0;
+    color: var(--blanco);
+    font-family: var(--titulos), cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+#detalles > div > div > p{
+    margin: 10px;
+    color: var(--blanco);
+    font-family: var(--texto), monospace;
+    font-size: 20px;
+    text-align: center;
 }
 
 #intereses{
