@@ -118,6 +118,7 @@ section{
 #intereses{
     background-image: url('../img/fondo2.png');
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
